@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Umut değil, para dağıtıyoruz ;)</title>
+    <style>
+      body {
+        width: 600px;
+        background: linear-gradient(to bottom, #ffcc00, #ff9999);
+        padding: 20px;
+        font-family: Arial, sans-serif;
+      }
+      .logo {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+      }
+      .logo img {
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+        transform: translateZ(0);
+        transition: transform 0.3s ease-out;
+        background-color: black;
+      }
+
+      /* Add hover effect for the image */
+      .logo img:hover {
+        transform: scale(1.1) rotate(5deg);
+      }
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      h1 {
+        text-align: center;
+      }
+      input,
+      textarea {
+        width: 100%;
+        margin-bottom: 8px;
+        padding: 8px;
+      }
+      button {
+        width: 100%;
+        padding: 10px;
+        cursor: pointer;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+      }
+      button:hover {
+        background-color: #45a049;
+      }
+      </style>
+  </head>
+  <body>
+    <div class="logo">
+      <img src="icon48.png" alt="Logo" />
+    </div>
+    <h1>Umut degil, para dağıtıyoruz ;)</h1>
+    <button id="save">Save</button>
+    <div id="shortcuts">
+      <div class="container">
+        <input type="text" id="shortcut1" placeholder="Kısayol 1" />
+        <textarea id="message1" rows="4" placeholder="Kopyalamak istediğiniz yazı 1"></textarea>
+      </div>
+      <div class="container">
+        <input type="text" id="shortcut2" placeholder="Kısayol 2" />
+        <textarea id="message2" rows="4" placeholder="Kopyalamak istediğiniz yazı 2"></textarea>
+      </div>
+      <div class="container">
+        <input type="text" id="shortcut3" placeholder="Kısayol 3" />
+        <textarea id="message3" rows="4" placeholder="Kopyalamak istediğiniz yazı 3"></textarea>
+      </div>
+      <div class="container">
+        <input type="text" id="shortcut4" placeholder="Kısayol 4" />
+        <textarea id="message4" rows="4" placeholder="Kopyalamak istediğiniz yazı 4"></textarea>
+      </div>
+      <div class="container">
+        <input type="text" id="shortcut5" placeholder="Kısayol 5" />
+        <textarea id="message5" rows="4" placeholder="Kopyalamak istediğiniz yazı 5"></textarea>
+      </div>
+      <div class="container">
+        <input type="text" id="shortcut6" placeholder="Kısayol 6" />
+        <textarea id="message6" rows="4" placeholder="Kopyalamak istediğiniz yazı 6"></textarea>
+      </div>
+      <div class="container">
+        <input type="text" id="shortcut7" placeholder="Kısayol 7" />
+        <textarea id="message7" rows="4" placeholder="Kopyalamak istediğiniz yazı 7"></textarea>
+      </div>
+      <div class="container">
+        <input type="text" id="shortcut8" placeholder="Kısayol 8" />
+        <textarea id="message8" rows="4" placeholder="Kopyalamak istediğiniz yazı 8"></textarea>
+      </div>
+      <div class="container">
+        <input type="text" id="shortcut9" placeholder="Kısayol 9" />
+        <textarea id="message9" rows="4" placeholder="Kopyalamak istediğiniz yazı 9"></textarea>
+      </div>
+      <div class="container">
+        <input type="text" id="shortcut10" placeholder="Kısayol 10" />
+        <textarea id="message10" rows="4" placeholder="Kopyalamak istediğiniz yazı 10"></textarea>
+      </div>
+      <div class="container">
+        <input type="text" id="shortcut11" placeholder="Kısayol 11" />
+        <textarea id="message11" rows="4" placeholder="Kopyalamak istediğiniz yazı 11"></textarea>
+      </div>
+      <div class="container">
+        <input type="text" id="shortcut12" placeholder="Kısayol 12" />
+        <textarea id="message12" rows="4" placeholder="Kopyalamak istediğiniz yazı 12"></textarea>
+      </div>
+      <div class="container">
+        <input type="text" id="shortcut13" placeholder="Kısayol 13" />
+        <textarea id="message13" rows="4" placeholder="Kopyalamak istediğiniz yazı 13"></textarea>
+      </div>
+      <div class="container">
+        <input type="text" id="shortcut14" placeholder="Kısayol 14" />
+        <textarea id="message14" rows="4" placeholder="Kopyalamak istediğiniz yazı 14"></textarea>
+      </div>
+      <div class="container">
+        <input type="text" id="shortcut15" placeholder="Kısayol 15" />
+        <textarea id="message15" rows="4" placeholder="Kopyalamak istediğiniz yazı 15"></textarea>
+      </div>
+      <div class="container">
+        <input type="text" id="shortcut16" placeholder="Kısayol 16" />
+        <textarea id="message16" rows="4" placeholder="Kopyalamak istediğiniz yazı 16"></textarea>
+      </div>
+      <div class="container">
+        <input type="text" id="shortcut17" placeholder="Kısayol 17" />
+        <textarea id="message17" rows="4" placeholder="Kopyalamak istediğiniz yazı 17"></textarea>
+      </div>
+      <div class="container">
+        <input type="text" id="shortcut18" placeholder="Kısayol 18" />
+        <textarea id="message18" rows="4" placeholder="Kopyalamak istediğiniz yazı 18"></textarea>
+      </div>
+      <div class="container">
+        <input type="text" id="shortcut19" placeholder="Kısayol 19" />
+        <textarea id="message19" rows="4" placeholder="Kopyalamak istediğiniz yazı 19"></textarea>
+      </div>
+      <div class="container">
+        <input type="text" id="shortcut20" placeholder="Kısayol 20" />
+        <textarea id="message20" rows="4" placeholder="Kopyalamak istediğiniz yazı 20"></textarea>
+      </div>
+      <div class="container">
+        <input type="text" id="shortcut21" placeholder="Kısayol 21" />
+        <textarea id="message21" rows="4" placeholder="Kopyalamak istediğiniz yazı 21"></textarea>
+      </div>
+      <div class="container">
+        <input type="text" id="shortcut22" placeholder="Kısayol 22" />
+        <textarea id="message22" rows="4" placeholder="Kopyalamak istediğiniz yazı 22"></textarea>
+      </div>
+      <div class="container">
+        <input type="text" id="shortcut23" placeholder="Kısayol 23" />
+        <textarea id="message23" rows="4" placeholder="Kopyalamak istediğiniz yazı 23"></textarea>
+      </div>
+      <div class="container">
+        <input type="text" id="shortcut24" placeholder="Kısayol 24" />
+        <textarea id="message24" rows="4" placeholder="Kopyalamak istediğiniz yazı 24"></textarea>
+      </div>
+      <div class="container">
+        <input type="text" id="shortcut25" placeholder="Kısayol 25" />
+        <textarea id="message25" rows="4" placeholder="Kopyalamak istediğiniz yazı 25"></textarea>
+      </div>
+      <div class="container">
+        <input type="text" id="shortcut26" placeholder="Kısayol 26" />
+        <textarea id="message26" rows="4" placeholder="Kopyalamak istediğiniz yazı 26"></textarea>
+      </div>
+      <div class="container">
+        <input type="text" id="shortcut27" placeholder="Kısayol 27" />
+        <textarea id="message27" rows="4" placeholder="Kopyalamak istediğiniz yazı 27"></textarea>
+      </div>
+      <div class="container">
+        <input type="text" id="shortcut28" placeholder="Kısayol 28" />
+        <textarea id="message28" rows="4" placeholder="Kopyalamak istediğiniz yazı 28"></textarea>
+      </div>
+      <div class="container">
+        <input type="text" id="shortcut29" placeholder="Kısayol 29" />
+        <textarea id="message29" rows="4" placeholder="Kopyalamak istediğiniz yazı 29"></textarea>
+      </div>
+      <div class="container">
+        <input type="text" id="shortcut30" placeholder="Kısayol 30" />
+        <textarea id="message30" rows="4" placeholder="Kopyalamak istediğiniz yazı 30"></textarea>
+      </div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
